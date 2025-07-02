@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+    </head>
+    <body>
+        <form>
+           First Name: <input size="40" placeholder="enter your first name"/> <br><br>
+           Second Name: <input minlength="3"/><br><br>
+           Age : <input maxlength="3"/><br><br>
+           Gender : <input type="radio" name="gender" value="M"/>Male
+           <input type="radio" name="gender" value="F" /> Female<br><br>
+            Technologies:
+                <input type="checkbox" checked/> HTML 
+                <!-- by default checked by using the checked attribute -->
+                <input type ="checkbox"/> CSS 
+                <input type="checkbox"/> JS <br><br>
+            City Lived in:
+                <select name="city" multiple>
+                    <!-- multiple attribute is used to select multiple options in the drop down -->
+                    <option value="BG">Benguluru</option>
+                    <option>Hyderabad</option>
+                    <option>Kolkata</option>
+                    <option>Delhi</option>
+                    <option>hello000000000000000</option>
+                </select> <br><br>
+                <textarea  cols="10" rows="5">
+                    enter the text
+                </textarea>
+            <input type="button" value="click me"/><br><br>
+            <input type="reset"/>
+            <input type="submit" value="Submit form"/>
+        </form>
+    </body>
+</html>
+<!-- name attribute is used in radion button to check ony one option also name atrribute is used to
+ send that particular data to server -->
+ <!-- when we use value just after the name attribute then the value what we are giving after it will be sent to the
+  server not the actual name we mentioned -->
+<!-- name and value attributes are used for any of the elements in the form to send the data to the server -->
+ <!-- the other attributes are size (used to change the size of textbox) -->
+  <!-- selected(by dedault selects) -->
+   <!-- placeholder contains text that specifies the user what to enter into that text area -->
